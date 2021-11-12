@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background-color: #131313;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.box{
+    width: 650px;
+    height: 330px;
+    background-color: rgba(128, 128, 128, 0.555);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#nome{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    transition: width .6s ease;
+}
+#nome:focus{
+    width: 450px;
+    border: 2px solid cyan;
+}
+#btn{
+    margin-top: 16px;
+    padding: 16px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#btn3{
+    margin-top: 16px;
+    padding: 16px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.cadastro{
+    position: absolute;
+    width: 90%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.904);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: none;
+}
+.inps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inp{
+    width: 300px;
+    height: 45px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: arial;
+    outline: none;
+}
+.inp:focus{
+    border-bottom: 2px solid cyan;
+}
+.mar{
+    margin: 0 160px;
+}
+.sty{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+#btn2{
+    padding: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid cyan;
+    width: 150px;
+}
+.infos{
+    width: 650px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+}
+.da{
+    color: white;
+    margin-top: 25px;
+}
+.infos h4{
+    margin-top: 130px;
+}
+.close{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+#btn4{
+    margin-top: 16px;
+    padding: 16px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;  
+}
